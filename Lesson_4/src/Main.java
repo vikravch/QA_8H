@@ -15,7 +15,6 @@ public class Main {
 		ArrayList<String> list = new ArrayList<String>();
 		System.out.println(list.toString());
 		System.out.println(list.size());
-		
 		list.add("Hello"); // 0
 		list.add("now"); // 1
 		list.add("is"); // 2
@@ -46,6 +45,7 @@ public class Main {
 		
 		list.add(1,"test");
 		System.out.println(list);
+		System.out.println("-------------------");
 		
 		list.add(3,"text");
 		System.out.println(list);
@@ -65,7 +65,20 @@ public class Main {
 		Collections.shuffle(list);
 		System.out.println(list);
 	}
-
+	
+	/* 21:08
+		Дз: 
+		1. Создать ф-цию, что переводит строку 
+		в список символов (коллекция ArrayList<Character>)
+		
+		public static ArrayList<Character> getCharList(String str)
+		
+		2. Создать коллекцию ArrayList<String> в функции main:
+		 - a) добавить 10 строк в коллекцию
+		 - b) удалить первую и последнюю строку с коллекции
+		 - c) отсортировать 
+		 - d) вывести "задом-наперед" (реверс) (for)
+	*/
 	private static char maxChar(String str) {
 		// 0. income values validation
 		if (str==null || str.equals("")) {

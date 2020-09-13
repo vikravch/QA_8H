@@ -16,5 +16,4 @@ public class BasicWorkWithList {
 		Collections.shuffle(wordsList);
 		System.out.println(wordsList);
 	}
-
 }
