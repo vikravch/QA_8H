@@ -13,11 +13,12 @@ public class Main {
 		sportsMans.add(new SportsMan("gdfgdf",175,28,0,89));
 		sportsMans.add(new SportsMan("tertret",180,30,0,110));
 		
+		
 		System.out.println(sportsMans);
 		for(People item: sportsMans) {
 			System.out.println(item);
 		}
-		
+		System.out.println("++++++++++++++++++++++++++++++++++++++++++++");
 		ArrayList<Runner> runners = new ArrayList<>();
 		for(int i=0; i<30; i++) {
 			runners.add(
@@ -57,13 +58,12 @@ public class Main {
 		String str3 = "AAAA";
 		str1.compareTo(str2);
 		/* 
-		 * str1>str2 -> str1.compareTo(str2) = 1  >0
+		 * str1>str2 -> str1.compareTo(str2) = 1 >0
 		 * str1<str2 -> str1.compareTo(str2) = -1 <0
 		 * str1==str2 -> str1.compareTo(str2) = 0 
 		 */
 	}
-	static void bubbleSortString(String arr[])
-    {
+	static void bubbleSortString(String arr[]){
         int n = arr.length;
         for (int i = 0; i < n-1; i++)
             for (int j = 0; j < n-i-1; j++)
@@ -74,11 +74,16 @@ public class Main {
                     String temp = arr[j];
                     arr[j] = arr[j+1];
                     arr[j+1] = temp;
+                    /* A <-> B
+                     * C = A
+                     * A = B
+                     * B = C
+                     * 
+                     * C = A A = B B = C
+                     * */
                 }
     }
-	
-	static void bubbleSort(int arr[])
-    {
+	static void bubbleSort(int arr[]){
         int n = arr.length;
         for (int i = 0; i < n-1; i++)
             for (int j = 0; j < n-i-1; j++)

@@ -74,5 +74,28 @@ public class TextProcessor {
 		int index = random.nextInt(array.length);
 		return array[index];
 	}
+
+	public int getEmailCount() {
+		int res = 0;
+		
+		ArrayList<String> wordsList = getWordsList();
+		for(String word:wordsList) {
+			if(isEmail(word)) {
+				res++;
+			}
+		}
+		
+		return res;
+	}
+//    test@email.il   cfsadsadasda
+	private boolean isEmail(String word) {
+		int shtrudelFromStart = word.indexOf('@');
+		int shtrudelFromFinish = word.lastIndexOf('@');
+		if(shtrudelFromStart==shtrudelFromFinish && shtrudelFromStart!=-1) {
+			return true;			
+		} else {
+			return false;			
+		}
+	}
 	
 }

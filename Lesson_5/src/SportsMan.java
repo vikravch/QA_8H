@@ -4,7 +4,6 @@ public class SportsMan extends People {
 	private int rank;
 	private int bestResult;
 	
-
 	public SportsMan(String name, 
 			int height, int age, 
 			int rank, int bestResult) {
@@ -33,4 +32,6 @@ public class SportsMan extends People {
 	public String toString() {
 		return "SportsMan [rank=" + rank + ", bestResult=" + bestResult + ", toString()=" + super.toString() + "]";
 	}
+
+
 }
