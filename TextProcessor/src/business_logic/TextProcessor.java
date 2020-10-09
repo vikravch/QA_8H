@@ -2,7 +2,9 @@ package business_logic;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.Random;
+import java.util.TreeSet;
 
 public class TextProcessor {
 	
@@ -96,6 +98,18 @@ public class TextProcessor {
 		} else {
 			return false;			
 		}
+	}
+
+	public HashSet<String> getUniqueWords() {
+		ArrayList<String> list = getWordsList();
+		HashSet<String> wordsSet = 
+				new HashSet<>(list);
+		return wordsSet;
+	}
+
+	public TreeSet<String> getSortedUniqueWords() {
+		TreeSet<String> res = new TreeSet<>(getWordsList());
+		return res;
 	}
 	
 }
