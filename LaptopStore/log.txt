@@ -1,0 +1,13 @@
+
+2020.10.13 at 20:57:03 EEST: Added new laptop barcode - 124214321
+2020.10.13 at 20:57:04 EEST: Added new laptop barcode - 645645465
+2020.10.13 at 20:57:04 EEST: Added new laptop barcode - 234324324
+2020.10.13 at 20:57:04 EEST: Added new laptop barcode - 3213213312
+2020.10.13 at 20:57:04 EEST: Get new count for barcode - 124214321 income count - 4
+2020.10.13 at 20:57:04 EEST: Get new count for barcode - 645645465 income count - 1
+2020.10.13 at 20:57:04 EEST: Get new count for barcode - 234324324 income count - 6
+2020.10.13 at 20:57:04 EEST: Get new count for barcode - 3213213312 income count - 3
+2020.10.13 at 20:57:04 EEST: Laptop didn't add barcode - 3213213312
+2020.10.13 at 20:57:04 EEST: Laptop didn't add barcode - 3213213312
+2020.10.13 at 20:57:04 EEST: Added new discount for store - 10.0
+2020.10.13 at 20:57:04 EEST: Added new discount for barcode - 645645465 discount - 25.0
