@@ -1,0 +1,5 @@
+Library project:
+1. Library - include collection of books
+2. Book - include all data about one book: name, id, status
+3. Database - file which contains all books
+4. User interface - console input possibility
